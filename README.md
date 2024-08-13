@@ -117,51 +117,18 @@ cd && awk -F 'checksum,' '/checksum/ {print "Your Wallet Private Key: " $2}' .bi
 Store your private key in a secure location.
 
 
-# Importing Your Wallet into Unisat Wallet
+# Import Your Wallet into Unisat Wallet
+Klaim Faucet 
+https://explorer.fractalbitcoin.io/faucet
+join tesnet
+https://app.infinityai.network?ref-code=45008a0c4f0e7939
 
-To use your Fractal Bitcoin wallet with Unisat Wallet, follow these instructions:
-
-### 1. Install Unisat Wallet
-
-[Download Unisat Wallet](https://chromewebstore.google.com/detail/unisat-wallet/ppbibelpcjmhbdihakflkdcoccbgbkpo?pli=1) from the Chrome Web Store and open it.
-
-![Unisat Wallet](https://github.com/user-attachments/assets/a5cb92dc-417b-4868-bcbb-68e24e3dd354)
-
-### 2. Access the Settings Menu
-
-Click the wallet name in the top left corner, then click the "+" icon in the top right.
-
-![Settings Menu](https://github.com/user-attachments/assets/116dedbd-a1f8-44cf-b7dd-828d6efe4207)
-
-### 3. Restore Your Wallet Using the Private Key
-
-Select the "Restore from single private key" option.
-
-![Restore from Private Key](https://github.com/user-attachments/assets/ada6a10e-0c6b-4007-8acf-18376100e426)
-
-### 4. Enter Your Private Key
-
-Paste your private key into the input field.
-
-![Enter Private Key](https://github.com/user-attachments/assets/1e61209c-1128-4bd6-a87e-f8ed96924fc6)
-
-### 5. Choose Wallet Type
-
-Make sure to select the "Legacy" option when choosing your wallet type.
-
-![Select Wallet Type](https://github.com/user-attachments/assets/09497321-4475-4831-8ff6-d786d0fe295d)
-
-### 6. Explore Fractal Bitcoin
-
-You can view your transactions and wallet details using the [Fractal Explorer](https://explorer.fractalbitcoin.io/).
-
----
-
-This guide will help you successfully import your Fractal Bitcoin wallet into Unisat Wallet. Remember to always securely back up your private keys.
-
+https://fractal.unisat.io
 ## Join channel TELEGRAM for diskusi and information
 
 https://airdrop_node
+
+##thanks
 
 
 
