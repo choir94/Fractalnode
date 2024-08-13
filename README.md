@@ -1,4 +1,8 @@
 # Fractalnode
+## Join channel TELEGRAM for diskusi and information
+
+https://t.me/airdrop_node
+
 # Fractal Bitcoin Node Setup Guide
 
 To ensure smooth requirements:
@@ -124,6 +128,7 @@ join tesnet
 https://app.infinityai.network?ref-code=45008a0c4f0e7939
 
 https://fractal.unisat.io
+
 ## Join channel TELEGRAM for diskusi and information
 
 https://t.me/airdrop_node
