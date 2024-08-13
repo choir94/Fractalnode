@@ -100,7 +100,7 @@ This will generate a new wallet named wallet.
 ![Screenshot_6](https://github.com/user-attachments/assets/42465c83-699e-4069-831d-f0691a79445a)
 
 #### Step 4: Backup Your Private Key
-It’s crucial to back up your private key. Use this command to retrieve it:
+Itms crucial to back up your private key. Use this command to retrieve it:
 
 ```shell
 bash
@@ -126,7 +126,7 @@ https://app.infinityai.network?ref-code=45008a0c4f0e7939
 https://fractal.unisat.io
 ## Join channel TELEGRAM for diskusi and information
 
-https://airdrop_node
+https://t.me/airdrop_node
 
 ##thanks
 
