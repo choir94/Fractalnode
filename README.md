@@ -1,5 +1,5 @@
 # Fractalnode
-## Join channel TELEGRAM for diskusi and information
+## Join Channel Telegram
 
 https://t.me/airdrop_node
 
