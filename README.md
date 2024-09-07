@@ -31,21 +31,21 @@ sudo apt install curl build-essential pkg-config libssl-dev git wget jq make gcc
 Get the latest Fractal Node release:
 
 ```bash
-wget https://github.com/fractal-bitcoin/fractald-release/releases/download/v0.1.8/fractald-0.1.8-x86_64-linux-gnu.tar.gz
+wget https://github.com/fractal-bitcoin/fractald-release/releases/download/v0.2.0/fractald-0.2.0-x86_64-linux-gnu.tar.gz
 ```
 
 #### b. Extract the Archive
 Unpack the downloaded tar.gz file:
 
 ```bash
-tar -zxvf fractald-0.1.8-x86_64-linux-gnu.tar.gz
+tar -zxvf fractald-0.2.0-x86_64-linux-gnu.tar.gz
 ```
 
 #### c. Set Up the Data Directory
 Move to the extracted directory and create a data folder:
 
 ```bash
-cd fractald-0.1.8-x86_64-linux-gnu
+cd fractald-0.2.0-x86_64-linux-gnu
 ```
 
 #### d. Configure the Node
@@ -66,8 +66,8 @@ After=network.target
 
 [Service]
 User=root
-WorkingDirectory=/root/fractald-0.1.8-x86_64-linux-gnu
-ExecStart=/root/fractald-0.1.8-x86_64-linux-gnu/bin/bitcoind -datadir=/root/fractald-0.1.8-x86_64-linux-gnu/data/ -maxtipage=504576000
+WorkingDirectory=/root/fractald-0.2.0-x86_64-linux-gnu
+ExecStart=/root/fractald-0.2.0-x86_64-linux-gnu/bin/bitcoind -datadir=/root/fractald-0.2.0-x86_64-linux-gnu/data/ -maxtipage=504576000
 Restart=always
 RestartSec=3
 LimitNOFILE=infinity
@@ -97,7 +97,7 @@ sudo journalctl -u fractald -fo cat
 To create a new wallet, execute the following commands:
 
 ```shell
-cd /root/fractald-0.1.8-x86_64-linux-gnu/bin
+cd /root/fractald-0.2.0-x86_64-linux-gnu/bin
 ./bitcoin-wallet -wallet=wallet -legacy create
 ```
 This will generate a new wallet named wallet.
@@ -110,7 +110,7 @@ Itms crucial to back up your private key. Use this command to retrieve it:
 bash
 Copy code
 # Navigate to the Fractal directory
-cd /root/fractald-0.1.8-x86_64-linux-gnu/bin
+cd /root/fractald-0.2.0-x86_64-linux-gnu/bin
 
 # Dump the wallet's private key to a file
 ./bitcoin-wallet -wallet=/root/.bitcoin/wallets/wallet/wallet.dat -dumpfile=/root/.bitcoin/wallets/wallet/MyPK.dat dump
