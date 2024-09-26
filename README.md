@@ -31,21 +31,21 @@ sudo apt install curl build-essential pkg-config libssl-dev git wget jq make gcc
 Get the latest Fractal Node release:
 
 ```bash
-wget https://github.com/fractal-bitcoin/fractald-release/releases/download/v0.2.0/fractald-0.2.0-x86_64-linux-gnu.tar.gz
+wget https://github.com/fractal-bitcoin/fractald-release/releases/download/v0.2.1/fractald-0.2.1-x86_64-linux-gnu.tar.gz
 ```
 
 #### b. Extract the Archive
 Unpack the downloaded tar.gz file:
 
 ```bash
-tar -zxvf fractald-0.2.0-x86_64-linux-gnu.tar.gz
+tar -zxvf fractald-0.2.1-x86_64-linux-gnu.tar.gz
 ```
 
 #### c. Set Up the Data Directory
 Move to the extracted directory and create a data folder:
 
 ```bash
-cd fractald-0.2.0-x86_64-linux-gnu
+cd fractald-0.2.1-x86_64-linux-gnu
 ```
 
 #### d. Configure the Node
